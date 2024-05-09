@@ -1,11 +1,11 @@
 from aiogram import types
 from aiogram import Dispatcher
-from aiogram.dispatcher.filter import BoundFilter
+
 
 from .constants import OWNER_ID, VIP
 
 
-class OwnerFilter(BoundFilter):
+class OwnerFilter():
     key = "is_owner"
 
     def __init__(self, is_owner: bool) -> None:
@@ -15,7 +15,7 @@ class OwnerFilter(BoundFilter):
         return message.from_user.id == OWNER_ID
 
 
-class VIPFilter(BoundFilter):
+class VIPFilter():
     key = "is_vip"
 
     def __init__(self, is_vip: bool) -> None:
@@ -25,7 +25,7 @@ class VIPFilter(BoundFilter):
         return message.from_user.id in VIP
 
 
-class AdminFilter(BoundFilter):
+class AdminFilter():
     key = "is_admin"
 
     def __init__(self, is_admin: bool) -> None:
@@ -40,7 +40,7 @@ class AdminFilter(BoundFilter):
         return chat_member.is_chat_admin()
 
 
-class GameRunningFilter(BoundFilter):
+class GameRunningFilter():
     key = "game_running"
 
     def __init__(self, game_running: bool) -> None:
