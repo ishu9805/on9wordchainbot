@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram import Dispatcher
-from aiogram.Dispatcher.filters import BoundFilter
+from aiogram.dispatcher.filter import BoundFilter
 
 from .constants import OWNER_ID, VIP
 
