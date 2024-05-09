@@ -1,12 +1,12 @@
 {
-    "TOKEN": "",
-    "ON9BOT_TOKEN": "",
-    "DB_URI": "",
+    "TOKEN": "7083833782:AAEDLKiQBv8GSAkbA71g36H9M2yA2QXZ2k8",
+    "ON9BOT_TOKEN": "7139958144:AAGBvchaKWjo542o8NnSshrKb5hjTdisVVk",
+    "DB_URI": "mongodb+srv://babusona:hinatababy@cluster0.t0lfelh.mongodb.net/",
     "PROVIDER_TOKEN": "",
-    "OWNER_ID": 69420,
-    "ADMIN_GROUP_ID": 69420,
-    "OFFICIAL_GROUP_ID": 69420,
-    "WORD_ADDITION_CHANNEL_ID": 69420,
+    "OWNER_ID": 6257270528,
+    "ADMIN_GROUP_ID": -1002048925723,
+    "OFFICIAL_GROUP_ID": -1002038805604,
+    "WORD_ADDITION_CHANNEL_ID": -1002038805604,
     "VIP": [],
-    "VIP_GROUP": []
+    "VIP_GROUP": [-1002038805604]
 }
